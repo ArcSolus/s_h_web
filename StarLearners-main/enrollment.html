@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enrollment</title>
+<style>
+
+  html, body {
+ margin : 0px ;
+ height : 100% ;
+ width : 100% ;
+ box-sizing: border-box;
+}
+
+#footer {
+ height : 100px ;
+ text-align : center ;
+ width : 100% ;
+ padding: 8px 10px 8px 10px;
+ background-color :  #56A0E3;
+ text-align: center;
+ font-size: 12px;
+ bottom: 0px;
+ 
+}
+header
+{
+    background-color: #56A0E3;
+    padding: 35px 35px 35px 35px;
+    text-align: center;
+    font-size: 28px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h1{
+    text-align: center;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button1 {
+  border: none;
+  
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #DB0CDF;
+}
+
+.button1:hover {
+  background-color: #DB0CDF;
+  color: white;
+}
+
+.button2 {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #2D2AB1;
+}
+
+.button2:hover {
+  background-color: #2D2AB1;
+  color: white;
+}
+
+.col-md-12 
+{
+  background-color: #F9F8F8;
+}
+.button3 {
+  border: none;
+  
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #FC0606;
+}
+
+.button3:hover {
+  background-color: #FC0606;
+  color: white;
+}
+
+.flex-container {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    padding: 8px;
+  
+}
+
+@media (max-width: 600px)
+
+    .flex-container
+    {
+        display: block;
+    }
+    
+
+h2{
+  font-size: 2px;
+
+}
+  
+ .icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  padding: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #157DC3;
+  color: white;
+}
+
+.twitter {
+  background: #2CA1E9;
+  color: white;
+}
+.instagram {
+  background: #BF397A;
+  color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  align-content: middle;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ffa500;
+  color: white;
+}
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+</style>   
+
+</head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<body>
+  <header>
+    <logo>
+        <img src="https://logodix.com/logo/346977.png" alt="schoollogo" width=40px height=40px>
+    </logo>
+    STAR LEARNERS PRE-SCHOOL
+</header>
+
+<div id="page">
+    <div class="topnav">
+        <a href="starlearners.html">HOME</a>
+        <a class="active" href="#enrollment">ENROLLMENT</a>
+        <a href="#teachers">TEACHERS</a>
+        <a href="#parents">PARENTS</a>
+        <a href="WebsiteProject_ContactUsPage.html">CONTACT US</a>
+        <a href="#search">SEARCH</a>
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search..." name="search">
+             <!--<button type="submit"><i class="fa fa-search"></i></button>--> 
+            </form>
+          </div>
+      </div>
+      <br><br>
+      <h1>ENROLLMENT</h1>
+      <div class="news flex-container">
+        <div class="row">
+          <div class="col-md-12">
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+          </div>
+        </div>
+      </div>
+<br>
+<div class="news flex-container">
+  <div class="enrollment">
+    <div class="col-md-4">
+        <h2>Delightful Daisy</h2>
+          <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1440&q=80" alt="delightful daisy" height="434px" width="362" style=margin:10px>
+        <div class="container">
+          <button class="button1 button1">0 - 2 Years</button>
+        </div>
+    </div>
+  </div>
+
+      <div class="enrollment">
+        <div class="col-md-4">
+            <h2>Busy Bee</h2>
+            <img src="https://images.unsplash.com/photo-1501686637-b7aa9c48a882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="delightful daisy" height="434px" width="362" style=margin:10px>
+          <div class="container">
+            <button class="button2 button2">2 - 3 Years</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="enrollment">
+        <div class="col-md-4">
+            <h2>Curious George</h2>
+            <img src="https://images.unsplash.com/photo-1592106680408-e7e63efbc7ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="delightful daisy" height="434px" width="362" style=margin:10px>
+          <div class="container">
+            <button class="button3 button3">4 - 5 Years</button>
+          </div>
+        </div>
+      </div>
+</div>
+
+<br><br>
+
+        <div class="footer">
+            <div id="footer"> <p></p>
+                    <footer><h4><p>NEWSLETTER SUBSCRIPTION</p></h4>
+                        <p>&copy; STAR LEARNERS PRE-SCHOOL, 2022</p>
+                    </footer>
+                </div>
+        </div>
+
+        <div class="icon-bar">
+            <a href="#" class="facebook"><img src ="Facebook.png" alt = "FBLOGO" width=30px height=30px></i></a> 
+            <a href="#" class="twitter"><img src ="toppng.com-twitter-white-icon-social-media-icon-png-and-vector-twitter-app-icon-2017-465x465.png" alt = "TLOGO" width=30px height=30px></i></a>
+            <a href="#" class="instagram"><img src ="https://logodix.com/logo/4269.png" alt = "IGLOGO" width=30px height=30px></i></a> 
+        </div>
+</body>
+</html>
+

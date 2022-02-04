@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Contact Us</title>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  </head>
+    <body>
+        <style>
+            html, body {
+    margin : 0px ;
+    height : 100% ;
+    width : 100% ;
+   }
+   
+   #header  {
+    height : 80px ;
+    text-align : center ;
+    width : 100% ;
+   }
+   
+   #footer {
+    height : 100px ;
+    text-align : center ;
+    width : 100% ;
+    padding: 8px 10px 8px 10px;
+    background-color :  #56A0E3;
+    text-align: center;
+    font-size: 12px;
+    bottom: 0px;
+    
+   }
+   header
+   {
+       background-color: #56A0E3;
+       padding: 35px 35px 35px 35px;
+       text-align: center;
+       font-size: 28px;
+   }
+   
+
+
+   h1 {
+       text-align: center;
+       
+   }
+   .flex-container {
+       max-width: 1000px;
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+       margin: 10px auto;
+   }
+   
+   @media (max-width: 600px)
+   {
+       .flex-container
+       {
+           display: block;
+       }
+       
+   }
+   
+   #right{    
+    float: right;  
+    }  
+    .icon-bar {
+     position: fixed;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+   }
+   
+   /* Style the icon bar links */
+   .icon-bar a {
+     display: block;
+     padding: 16px;
+     transition: all 0.3s ease;
+   }
+   
+   /* Style the social media icons with color, if you want */
+   .icon-bar a:hover {
+     background-color: #000;
+   }
+   
+   .facebook {
+     background: #157DC3;
+     color: white;
+   }
+   
+   .twitter {
+     background: #2CA1E9;
+     color: white;
+   }
+   .instagram {
+     background: #BF397A;
+     color: white;
+   }
+   
+   /* Add a black background color to the top navigation */
+   .topnav {
+     background-color: #333;
+     overflow: hidden;
+   }
+   
+   /* Style the links inside the navigation bar */
+   .topnav a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+     align-content: middle;
+   }
+   
+   /* Change the color of links on hover */
+   .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+   }
+   
+   /* Add a color to the active/current link */
+   .topnav a.active {
+    background-color: #ffa500;
+     color: white;
+   }
+   .topnav input[type=text] {
+     padding: 6px;
+     margin-top: 8px;
+     font-size: 17px;
+     border: none;
+   }
+   
+   .topnav .search-container button {
+     float: right;
+     padding: 6px 10px;
+     margin-top: 8px;
+     margin-right: 16px;
+     background: #ddd;
+     font-size: 17px;
+     border: none;
+     cursor: pointer;
+   }
+   
+   .topnav .search-container button:hover {
+     background: #ccc;
+   }
+
+   .Flex-Container2
+   {
+       display: flex;
+       background-color: #F9F8F8;
+       font-size: 30px;
+       text-align: left;
+       align-items: center;
+       justify-content: center;
+       max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+   }
+
+   .Flex-Container2 > div
+   {
+       margin: 10px;
+       padding: 20px;
+       font-size: 16px;
+   }
+
+    .button 
+    {
+    /* Align buttons with the text fields */
+    padding-left: 60px; /* same size as the label elements */
+    }button 
+    {
+    /* This extra margin represent roughly the same space as the space
+    between the labels and their text fields */
+    margin-left: 1em;
+    background-color: #56A0E3;
+    box-sizing: border-box; /* Match form field borders */
+    border: 1px solid #56A0E3;
+    color: white;
+    font: 12px;
+    } textarea 
+    {
+    vertical-align: top;
+    height: 5em;
+    }
+    input,
+    textarea 
+    {
+    /* To make sure that all text fields have the same font settings
+    By default, textareas have a monospace font */
+    font: 1em sans-serif; /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box; /* Match form field borders */
+    border: 1px solid #999;
+    }
+
+    .Flex-Container3
+    {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .col
+    {
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+    }
+
+    .row
+    {
+        padding: 8px;
+    }
+    h4 {
+      text-align: center;
+    }
+
+    .flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-left {
+  flex: 50%;
+}
+
+.flex-item-right {
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+        </style>
+    <header>
+        <logo>
+            <img src="https://logodix.com/logo/346977.png" alt="schoollogo" width=40px height=40px>
+        </logo>
+        STAR LEARNERS PRE-SCHOOL
+    </header>
+
+    <div id="page">
+        <div class="topnav">
+            <a href="starlearners.html">HOME</a>
+            <a href="enrollment.html">ENROLLMENT</a>
+            <a href="#teachers">TEACHERS</a>
+            <a href="#parents">PARENTS</a>
+            <a class="active" href="WebsiteProject_ContactUsPage.html">CONTACT US</a>
+            <a href="#about">SEARCH</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search..." name="search">
+                 
+                </form>
+              </div>
+          </div>
+<br><br>
+        <div id="main">
+            <h1>CONTACT US</h1>
+            <p></p>
+        
+        <br>
+        <div id="2nd-Main">
+            <div class="Flex-Container2">
+            <br>
+            <div>
+                <img src = "https://png.pngitem.com/pimgs/s/80-803648_address-icon-png-black-vector-clipart-psd-address.png" alt=addressimage style="width: 50px">
+                <p><br>
+                    <b>ADDRESS</b>
+                    <br>
+                    Vankanlahde 9,
+                    <br>
+                    Block C
+                    <br>
+                    13101,
+                    <br>
+                    Hameenlinna,
+                    <br>
+                    Finland
+                    <br><br><br>
+                    <b>Direction</b>
+                </p>
+            </div>
+            <div>
+                <img src = "https://www.passionjewellers.com/wp-content/uploads/2018/09/phone-png-phone-png-file-1969.png" alt=phoneimage style="width: 50px">
+                <p><br>
+                    <b>REGISTRAR</b>
+                    <br>
+                    046 333 1234
+                    <br><br>
+
+                    <b>HEADMASTER</b>
+                    <br>
+                    046 333 1235
+                    <br><br>
+
+                    <b>SCHOOL NURSE</b>
+                    <br>
+                    046 333 1236
+                    <br><br>
+                </p>
+            </div>
+            <div>
+                <img src = "https://png.pngitem.com/pimgs/s/11-118773_email-free-icon-png-email-transparent-png.png" alt=emailimage style="width: 50px">
+                <p><br>
+                  <b>REGISTRAR</b>
+                    <br>
+                    registrar@star.learners.fi
+                    <br><br>
+
+                    <b>HEADMASTER</b>
+                    <br>
+                    admin@star.learners.fi
+                    <br><br>
+
+                    <b>SCHOOL NURSE</b>
+                    <br>
+                    nurse@star.learners.fi
+                    <br><br>
+                </p>
+            </div>
+
+
+        </div>
+        </div>
+        <br>
+        
+
+        <div class="Flex-Container3">
+            <div class = "row">
+                <div class = "col">
+                <h4>Inquires</h4><br>
+                </div>
+
+                <div class = "row">    
+        <form action="/action_page.php" id="form1">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" form="form1"><br><br>
+            
+            <label for="lname">Email Add:</label>
+            <input type="text" id="email" name="email" form="form1">
+            
+            <label for="lname">Phone No.:</label>
+            <input type="text" id="phonenumber" name="phonenumber" form="form1"><br><br>
+            
+            <label for="lname">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+            
+            <br><br>
+            
+            
+            
+            <div class="button">
+            <button type="submit">SEND</button>
+            </div>
+        </div>
+    </div>
+        </div>
+            <br>
+
+            <div class="footer">
+                <div id="footer"> <p></p>
+                    <footer><h4><p>NEWSLETTER SUBSCRIPTION</p></h4>
+                        <p>&copy; STAR LEARNERS PRE-SCHOOL, 2022</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <div class="icon-bar">
+            <a href="#" class="facebook"><img src ="Facebook.png" alt = "FBLOGO" width=30px height=30px></i></a> 
+            <a href="#" class="twitter"><img src ="toppng.com-twitter-white-icon-social-media-icon-png-and-vector-twitter-app-icon-2017-465x465.png" alt = "TLOGO" width=30px height=30px></i></a>
+            <a href="#" class="instagram"><img src ="https://logodix.com/logo/4269.png" alt = "IGLOGO" width=30px height=30px></i></a> 
+          </div>
+  </body>
+</html>
+
+
